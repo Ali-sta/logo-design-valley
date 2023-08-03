@@ -1,0 +1,224 @@
+.Pricing-Sec{
+    .Pricing-Tabs{
+        .Tabs-Title{
+            text-align: center;
+            ul{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                li{
+                    list-style-type: none;
+                    margin: 0px 40px;
+                    font-size: 22px;
+                    font-family: $Poppins_SemiBold;
+                    color: white;
+                    letter-spacing: 1px;
+                }
+                li:hover{
+                    cursor: pointer;
+                }
+                .active{
+                    background-color: white;
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    color: #562F93;
+                }
+            }
+
+        }
+    }
+    .Tabs-Content{
+        .Btn2-flex{
+            display: flex;
+            gap: 8px;
+            .Tabs-btn{
+                min-width: 160px;
+                padding: 10px 0px;
+                text-align: center;
+            }
+        }
+        .content {
+            display: none;
+          }
+          .content.active {
+            display: block;
+        }
+
+        .Content-Inner{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            padding: 40px 0px;
+
+            .Package-Box{
+                border: 1px solid white;
+                padding: 30px 20px;
+                border-radius: 20px;
+                position: relative;
+                .Discount-Box{
+                    position: absolute;
+                    right: 25px;
+                    background-image: url('/assets/images/DiscountImg.png');
+                    background-repeat: no-repeat;
+                    top: 0;
+                    padding: 26px 14px;
+                    background-size: cover;
+                    background-position: center;
+                    h5{
+                        font-size: 20px;
+                        font-family: $Poppins_Bold;
+                        color: white;
+                        max-width: fit-content;
+                        span{
+                            font-family: $Poppins_Light;
+                        }
+                    }
+                }
+            }
+        }
+        h1{
+            font-size: 30px;
+            font-family: $Poppins_Bold;
+            color: white;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            margin-bottom: 0px;
+        }
+        h2{
+            font-size: 75px;
+            color: white;
+            font-family:$Poppins_Bold ;
+        }
+        h3{
+            font-size: 24px;
+            font-family: $Poppins_Regular;
+            color: white;
+            position: relative;
+            max-width: fit-content;
+        }
+        h3::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: white;
+            top: 0;
+            left: 0;
+            margin: auto;
+            right: 0;
+            bottom: 0;
+        }
+        h4{
+            font-size: 16px;
+            font-family: $Poppins_Medium;
+            color: white;
+        }
+        .List-Content{
+            padding: 20px 0px;
+            ul{
+                padding: 0px 0px 0px 18px;
+                li{
+                    font-size: 16px;
+                    font-family: $Poppins_Regular;
+                    color: white;
+                    margin: 5px 0px;
+                }
+            }
+
+        }
+
+    }
+    .Combo-Package{
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 25px 60px;
+        .Top-Heading-Col{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            h4 {
+                font-size: 40px;
+                color: white;
+                font-family: $Poppins_Medium;
+                text-transform: capitalize;
+                margin-bottom: 0px;
+            }
+            h1 {
+                font-size: 50px;
+                font-family: $Poppins_Black;
+                color: white;
+                text-transform: capitalize;
+                margin-bottom: 0px;
+                line-height: 45px;
+            }
+            h5 {
+                font-size: 25px;
+                font-family: 'Poppins-Regular';
+                color: white;
+                margin-bottom: 0px;
+            }
+        }
+        .Pckg-Data{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .Pckg-Data-Box{
+                margin-top: 60px;
+                h2 {
+                    font-size: 25px;
+                    font-family: $Poppins_Black;
+                    color: white;
+                }
+                .Listing-Data{
+                    ul{
+                        padding: 20px 0px 0px 15px;
+                        li{
+                            font-size: 17px;
+                            font-family:$Poppins_Medium ;
+                            color: white;
+                            padding: 0px 0px 10px 0px;
+                        }
+                    }
+
+                }
+            }
+        }
+        .Combo-Price-Col{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div{
+                text-align: center;
+            }
+            p{
+                font-size: 14px;
+                font-family: $Poppins_Medium;
+                color: white;
+                text-align: center;
+                margin-bottom: 30px
+            }
+            a.Combo-Pkg-Btn{
+                padding: 12px 45px;
+            }
+            .Combo-Pricing{
+                h1{
+                    font-size: 70px;
+                    font-family: $Poppins_Black;
+                    color: white;
+                    text-align: center;
+                }
+                h2{
+                    font-size: 32px;
+                    font-family: $Poppins_Black;
+                    color: white;
+                }
+                h4{
+                    font-size: 16px;
+                    font-family: $Poppins_Medium;
+                    color: white;
+                    text-align: center;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}

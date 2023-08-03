@@ -1,0 +1,106 @@
+.Why-Choose_Us{
+    .Why-Choose-Inner{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        .Top-Heading{
+            padding: 100px 130px 20px 130px;
+            .Why-Choose-dots{
+                .Dot-1{
+                    position: relative;
+                }
+                .Dot-1::after{
+                    content: "";
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    background-color: white;
+                    border-radius: 20px;
+                    bottom: 50px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    animation: bounce 2s infinite; 
+                }
+                .Dot-2{
+                    position: relative;
+                }
+                .Dot-2::after{
+                    content: "";
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                    background-color:white;
+                    border-radius: 20px;
+                    bottom: 20px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    animation: bounce 2s infinite; 
+                }
+                .Dot-3{
+                    position: relative;
+                }
+                .Dot-3::after{
+                    content: "";
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    background-color: white;
+                    border-radius: 20px;
+                    bottom: -15px;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    animation: bounce 2s infinite; 
+                }
+               
+            }
+            h4{
+                padding:50px 0px 80px 0px;
+                font-size: 18px;
+                font-family: $Poppins_Bold;
+                color: white;
+                position: relative;
+            }
+            h4::after{
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 50px;
+                background-color: white;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            h4::before{
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                background-color: white;
+                border-radius: 20px;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            h1{
+                font-size: 42px;
+                font-family: $Poppins_Bold;
+                color: white;
+            }
+            p{
+                font-size: 18px;
+                font-family: $Poppins_Regular;
+                color: white;
+            }
+
+        }
+       
+    }
+    .Slide-1{
+        display: relative;
+    }
+}

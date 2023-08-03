@@ -1,0 +1,62 @@
+.Key-Feature{
+    .Key-Feature_Inner{
+        text-align: center;
+        h4{
+            padding: 50px 0px 80px 0px;
+            font-size: 18px;
+            font-family: "Poppins-Bold";
+            color: white;
+            position: relative;
+        }
+        h4::before{
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: white;
+            border-radius: 20px;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        h4:After{
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 50px;
+            background-color: white;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        h1{
+           font-size: 40px;
+           font-family: $Poppins_Bold;
+           color: white;
+           line-height: 60px;
+        }
+        .Every-Project-Box{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            column-gap: 10px;
+            margin-top: 80px;
+        }
+        .Every-Project-Box{
+            .Img-Box{
+                padding: 20px 10px;
+                h2{
+                    font-size: 18px;
+                    color: white;
+                    font-family: $Poppins_Regular;
+                    margin-top: 20px;
+                }
+            }
+            .Img-Box:hover{
+                box-shadow: 2px 0px 4px 0px white;
+            }
+        }
+       
+    }
+}

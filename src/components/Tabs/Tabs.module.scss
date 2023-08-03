@@ -1,0 +1,95 @@
+.Tabs-Sec{
+    .Tabs-Title{
+        text-align: center;
+        padding: 50px 0px;
+        ul{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        li{
+            list-style-type: none;
+            font-size: 19px;
+            color: white;
+            font-family: $Poppins_Medium;
+            padding: 15px 15px;
+            p{
+                font-size: 14px;
+                font-family: $Poppins_Light;
+            }
+        }
+        li:hover{
+            cursor: pointer;
+        }
+        li.active{
+            background: white;
+            box-shadow: 1px 0px 5px 3px #756e6e52;
+            color: #A5227E;
+            border-radius: 30px;
+            position: relative;
+            img{
+                filter: invert(34%) sepia(80%) saturate(2236%) hue-rotate(296deg) brightness(64%) contrast(114%);;
+            }
+        }
+        li.active::after{
+            position: absolute;
+            content: "";
+            width: 30px;
+            height: 20px;
+            background: white;
+            bottom: -20px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            -webkit-clip-path: polygon(100% 0, 100% 56%, 48% 100%, 0 56%, 0 0);
+            clip-path: polygon(100% 0, 100% 2%, 48% 100%, 0 2%, 0 0);
+        }
+    }
+    .Tab-Content{
+        .content {
+            display: none;
+          }
+          .content.active {
+            display: block;
+          }
+        .Content-Box{
+            h1{
+                font-size: 35px;
+                font-family:$Poppins_Bold ;
+                color: white;  
+            }
+            h4{
+                font-size: 35px;
+                font-family:$Poppins_Bold ;
+                color: white;
+            }
+            p{
+                font-size: 18px;
+                font-family: $Poppins_Regular;
+                color: white;
+                line-height: 35px;
+                padding: 20px 0px 0px 0px;
+
+            }
+            .list-type-Content{
+                ul{
+                    padding-left: 15px;
+                    padding-bottom: 30px;
+                    li{
+                        font-size: 18px;
+                        font-family: $Poppins_Light;
+                        color: white;
+                        margin-bottom: 10px;
+                    }
+                }
+
+            }
+            .Btn2-flex{
+                display: flex;
+                gap: 20px;
+            }
+        }  
+    }
+    
+}

@@ -1,0 +1,25 @@
+.Call-To-Action{
+    text-align: center;
+    padding: 80px 0px;
+    h1{
+        font-size: 40px;
+        font-family: $Poppins_Black;
+        color: white;
+        letter-spacing: 2px;
+    }
+    p{
+        font-size: 22px;
+        font-family: $Poppins_Regular;
+        color: white;
+        line-height: 45px;
+        padding: 20px 0px;
+    }
+    .Btn-Sec{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        .CTA-Btn{
+            padding: 10px 45px;
+        }
+    }
+}

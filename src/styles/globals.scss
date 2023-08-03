@@ -1,0 +1,71 @@
+@import "./fonts.scss";
+.container{
+    max-width: 1240px !important;
+}
+
+.Btn-Common{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-family: $Poppins_Medium;
+}
+
+
+.Btn-Common:hover{
+    background-color: #FFFFFF;
+    transition: all ease-in-out 0.3s;
+    color: #31569F;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 17px;
+    height: 17px;
+    background: white;
+}
+span.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: white;
+    opacity: 1;
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 14px) !important;
+}
+
+
+// HOME WHY CHOOSE US SLIDER 
+.Slider-Row-1 .swiper-slide div{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+        background: rgba(0,0,0,.5);
+        transform: translate(-50%,-50%) scale(0);
+        transition: all .4s;
+    }
+    &::before{
+        content: '+';
+        position: absolute;
+        font-size: 70px;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        transform: translate(-50%,-50%) scale(0);
+        transition: all .4s;
+        z-index: 1;
+
+    }
+   
+}
+.swiper-slide div:hover:after {
+    transform: translate(-50%,-50%) scale(1);
+}
+.swiper-slide div:hover:before {
+    transform:translate(-50%,-50%) scale(1)
+}
+
+// HOME WHY CHOOSE US SLIDER 

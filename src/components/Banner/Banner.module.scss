@@ -1,0 +1,127 @@
+.H-Banner{
+    height: 135vh;
+    margin-top: -186px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+        .Images-Box{
+            margin-top: 90px;
+        }
+    .Banner-warrap{
+        text-align: center;
+        h1{
+            font-size: 52px;
+            font-family: $Poppins_Bold;
+            color: white;
+            line-height: 65px;
+        }
+        .Banner-Form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            .Form-Inner{
+                background: #ffffff94;
+                width: 50%;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 1px 0 5px 3px hsla(0,3%,45%,.322);
+                h4{
+                    font-size: 20px;
+                    font-family: $Poppins_SemiBold;
+                    color: #BD1E2D;
+                }
+                .FormFileds{
+                    display: grid;
+                    grid-template-columns: 280px 130px ;
+                    align-items: center;
+                    justify-content: center;
+                    grid-gap: 20px;
+                    padding-top: 20px;
+                    .Input-div{
+                        position: relative;
+                        input{
+                            border: 1px solid #BD1E2D;
+                            height: 40px;
+                            padding: 8px 10px 10px 50px;
+                            border-radius: 20px;
+                            width: 100%;
+                        }
+                        input::placeholder{
+                            font-size: 14px;
+                            color: #BD1E2D;
+                            font-family: $Poppins_Regular;
+                        }
+                    }
+                    .Input-div::after{
+                        content: '';
+                        position: absolute;
+                        width: 30px;
+                        height: 30px;
+                        background-image: url('/assets/images/inputfiled.png');
+                        left: 13px;
+                        margin: auto;
+                        background-repeat: no-repeat;
+                        background-size: 100% 90%;
+                        top: 6px;
+                    }
+                    button{
+                        background: #BD1E2D;
+                        border: none;
+                        color: white;
+                        padding: 8px 20px;
+                        border-radius: 20px;
+                        font-family: $Poppins_Regular;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1600px) {
+    .H-Banner{
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .H-Banner{
+        height: 80vh;
+        .Banner-warrap{
+            h1{
+                font-size: 36px;
+                line-height: 40px;
+            }
+            .Banner-Form{
+                margin-top: 25px;
+            }
+            .Images-Box{
+                margin-top: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .H-Banner{
+        height: 80vh;
+        .Banner-warrap{
+            h1{
+                font-size: 36px;
+                line-height: 40px;
+            }
+            .Banner-Form{
+                margin-top: 25px;
+            }
+            .Images-Box{
+                margin-top: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}

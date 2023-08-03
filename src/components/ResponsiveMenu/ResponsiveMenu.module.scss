@@ -1,0 +1,174 @@
+.responsiveContent {
+  display: none;
+    .hamburgerMenu {
+      svg {
+        font-size: 35px;
+        color: #e26605;
+      }
+    }
+    .sideBurgerMenu {
+      position: fixed;
+      top: 0;
+      right: -350px;
+      width: 350px;
+      height: 100vh;
+      background-color: white;
+      transition: right 0.5s ease;
+      z-index: 111;
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   right: 0;
+      //   top: 0;
+      //   background-color: #00000063;
+      //   width: 100vw;
+      //   height: 100%;
+      //   opacity: 0;
+      //   // z-index: -1;
+      // }
+      .closeButton {
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+      }
+      .menuWrapper {
+        position: relative;
+        overflow: overlay;
+        height: calc(100vh - 50px);
+        ul.menuContent {
+          display: flex;
+          flex-direction: column;
+          gap: 0px;
+          li {
+            a {
+              color: #000;
+              border-bottom: 1px solid;
+              padding: 20px 0px 20px 20px;
+              display: block;
+              font-size: 15px;
+              font-family: "Red Hat Display";
+              text-transform: uppercase;
+              letter-spacing: 0.2em;
+            }
+          }
+          .subMenuMainParent {
+            .mainServiceDropdown {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border-bottom: 1px solid;
+              padding: 20px 20px 20px 20px;
+              span {
+                color: #000;
+                transition: all 0.4s ease-in-out;
+                font-size: 15px;
+                font-family: "Red Hat Display";
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+              }
+              svg {
+                font-size: 20px;
+                color: #e26605;
+                transition: all 0.4s ease-in-out;
+              }
+            }
+            .mainServiceDropdown.active {
+              span {
+                color: #e26605;
+              }
+              svg {
+                transform: rotate(180deg);
+              }
+            }
+            ul.subMenuChild {
+              overflow: hidden;
+              transition: all 0.7s ease-in-out;
+              opacity: 0;
+              max-height: 0;
+              li {
+                position: relative;
+                .subMenuDropDown {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  border-bottom: 1px solid;
+                  padding: 20px 20px 20px 20px;
+                  a {
+                    padding: 0 0 0 15px;
+                    border-bottom: unset;
+                    color: #000;
+                    transition: all 0.4s ease-in-out;
+                    font-size: 13px;
+                    font-family: "Red Hat Display";
+                    text-transform: uppercase;
+                    letter-spacing: 0.2em;
+                  }
+                  svg {
+                    font-size: 20px;
+                    color: #e26605;
+                    transition: all 0.4s ease-in-out;
+                  }
+                }
+                .subMenuDropDown.active {
+                  a {
+                    color: #e26605;
+                  }
+                  svg {
+                    transform: rotate(180deg);
+                  }
+                }
+                ul.innerSubMenu {
+                  overflow: hidden;
+                  transition: all 0.7s ease-in-out;
+                  opacity: 0;
+                  max-height: 0;
+                  li {
+                    border-bottom: 1px solid;
+                    padding: 20px 20px 20px 20px;
+                    a {
+                      padding: 0 0 0 20px;
+                      border-bottom: unset;
+                      color: #000;
+                      transition: all 0.4s ease-in-out;
+                      font-size: 12px;
+                      font-family: "Red Hat Display";
+                      text-transform: uppercase;
+                      letter-spacing: 0.2em;
+                    }
+                  }
+                }
+                ul.innerSubMenu.open {
+                  max-height: max-content;
+                  opacity: 1;
+                }
+              }
+            }
+            ul.subMenuChild.open {
+              max-height: max-content;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+    .sideBurgerMenu.open {
+      right: 0;
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px){
+    .responsiveContent{
+      display: block;
+  }
+  }
+  @media (max-width: 425px) {
+    .responsiveContent {
+      .sideBurgerMenu {
+        width: 100%;
+        right: -100%;
+      }
+    }
+  }
+  
