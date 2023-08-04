@@ -42,6 +42,7 @@ function Banner(props) {
             <Row>
                 <div className={styles['Banner-warrap']}>
                     <h1>{Heading}</h1>
+                    
                     <div className={styles['Banner-Form']}>
                         <div className={styles['Form-Inner']}>
                             <h4>{FormHeading}</h4>

@@ -14,14 +14,15 @@
                     font-family: $Poppins_SemiBold;
                     color: white;
                     letter-spacing: 1px;
+                    background-color: #ffffff00;
+                    padding: 10px 20px;
+                    border-radius: 20px;
                 }
                 li:hover{
                     cursor: pointer;
                 }
                 .active{
                     background-color: white;
-                    padding: 10px 20px;
-                    border-radius: 20px;
                     color: #562F93;
                 }
             }

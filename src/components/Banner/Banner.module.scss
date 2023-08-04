@@ -31,9 +31,12 @@
         h1{
             font-size: 52px;
             font-family: $Poppins_Bold;
-            color: white;
             line-height: 65px;
+            color: white;
         }
+        
+        
+        
         .Banner-Form{
             display: flex;
             align-items: center;
@@ -91,6 +94,13 @@
                         padding: 8px 20px;
                         border-radius: 20px;
                         font-family: $Poppins_Regular;
+                        border: 1px solid #BD1E2D;
+                    }
+                    button:hover{
+                        background: #ff000000;
+                        border: 1px solid #BD1E2D;
+                        color: #BD1E2D;
+                        transition: all ease-in-out 0.3s;
                     }
                 }
             }
