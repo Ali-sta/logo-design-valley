@@ -9,7 +9,7 @@ function Banner(props) {
     const {CompCls , Heading , FormHeading , BgImageURL} = props
     const Partners =  [
         {
-            ImgSrc: '/assets/images/partnersImg1.png',
+            ImgSrc: '/assets/images/partnersImg2.png',
             ImgWidth:"158",
             ImgHeight:"66"
         },
