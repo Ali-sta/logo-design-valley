@@ -31,8 +31,8 @@ function Banner(props) {
         },
         {
             ImgSrc: '/assets/images/partnersImg5.png',
-            ImgWidth:"158",
-            ImgHeight:"66"
+            ImgWidth:"192",
+            ImgHeight:"80"
         },
        
     ];
