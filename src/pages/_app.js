@@ -17,6 +17,7 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
         />
         <link rel="icon" href="/favicon.png" />
+        
       </Head>
       <Layout>
         <Component {...pageProps} />
