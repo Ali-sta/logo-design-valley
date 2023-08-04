@@ -89,19 +89,27 @@ export default function Home() {
       <div className="section" data-bgcolor="#0000ff">
       <KeyFeature/>
       </div>
+      <div className="section" data-bgcolor="#ff0000">
       <Tabs />
+      </div>
+      <div className="section" data-bgcolor="#00ff00">
       <Pricing 
         ComboPack_SubHeading = "All In One"
         ComboPack_Heading = "Combo Package"
         ComboPack_Description = "Ultimate Value for Start-ups and Brand(s)"
       />
+      </div>
+      <div className="section" data-bgcolor="#0000ff">
       <CallToAction 
          Heading = "Get Your Project Started Today"
          Para = "At our company, we value communication and understand the importance of open dialogue between our team and our clients. That's why we encourage you to talk to us – whether it's to discuss a new project, ask a question, or provide feedback on our services."
       />
+      </div>
+      <div className="section" data-bgcolor="#ff0000">
       <Testimonials 
         Heading = "Testimonials"
       />
+      </div>
       
     </>
   )

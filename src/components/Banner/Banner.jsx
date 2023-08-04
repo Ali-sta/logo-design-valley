@@ -35,7 +35,7 @@ function Banner(props) {
             ImgHeight:"66"
         },
         {
-            ImgSrc: '/assets/images/partnersImg5.png',
+            ImgSrc: '/assets/images/partnersImg1.png',
             ImgWidth:"158",
             ImgHeight:"66"
         }
