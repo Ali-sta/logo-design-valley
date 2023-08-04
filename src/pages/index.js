@@ -70,7 +70,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="section" data-gradient="linear-gradient(180deg, rgba(189,32,46,1) 0%, rgba(188,30,44,1) 16%, rgba(189,30,45,1) 100%)" >
       <Banner 
         Heading={
           <>
@@ -78,10 +77,9 @@ export default function Home() {
           </>
         }
         FormHeading = "Insanely professional logo maker services poured with passion and proficiency"
-        BgImageURL = "./assets/images/bannerbg.webp"
+        BgImageURL = ""
         bgColor="red"
       />
-      </div>
       <div className="section" data-gradient="linear-gradient(180deg, rgba(189,32,46,1) 0%, rgba(188,30,44,1) 16%, rgba(189,30,45,1) 100%)"  data-bgcolor="blue">
       <WhyChooseUs />
       </div>
