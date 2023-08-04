@@ -34,11 +34,7 @@ function Banner(props) {
             ImgWidth:"158",
             ImgHeight:"66"
         },
-        {
-            ImgSrc: '/assets/images/partnersImg1.png',
-            ImgWidth:"158",
-            ImgHeight:"66"
-        }
+       
     ];
   return (
     <div className={`${styles['H-Banner']} ${styles[CompCls]}`} style={{backgroundImage: `url(${BgImageURL})`}}>
