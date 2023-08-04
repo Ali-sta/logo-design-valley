@@ -46,8 +46,8 @@ function Layout(props) {
             ?
             firstElement.parentNode.insertBefore(newElement, firstElement) :
             doc.getElementsByTagName("head")[0].appendChild(newElement);
-    })(window, document, "script", "https://stg-script.swiftsales.io/swiftsales.js?v=1691150209304", "swiftSales");
-    swiftSales("Init", "426")`,
+    })(window, document, "script", "https://stg-script.swiftsales.io/swiftsales.js?v=1691157140469", "swiftSales");
+    swiftSales("Init", "427")`,
   }}
 />
 
