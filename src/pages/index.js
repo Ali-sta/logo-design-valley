@@ -34,12 +34,11 @@ export default function Home() {
           toggleActions: 'play none none none', // This ensures the animation plays when the section enters the viewport and is removed when it leaves
           onUpdate: (self) => {
             if (self.isActive) {
-              document.body.style.transition = 'background-color 0.5s ease'; // Add CSS transition for body background color
+              document.body.style.transition = 'background-color 3s ease'; // Add CSS transition for body background color
               document.body.style.backgroundImage = `${bgColor}, url(${bgImage})`; // Set the body background color and image
               document.body.style.backgroundSize = 'cover'; // Adjust this according to your needs
             }
           },
-          markers: true,
         },
       });
 
