@@ -102,5 +102,11 @@
     }
     .Slide-1{
         display: relative;
+        div{
+            img{
+                object-fit: cover;
+                width: 100%;
+            }
+        }
     }
 }

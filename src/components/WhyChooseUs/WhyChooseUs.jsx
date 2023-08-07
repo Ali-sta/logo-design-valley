@@ -9,97 +9,97 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 
 function WhyChooseUs(props) {
-    const {WhyChooseUsCompCls} = props
+    const {WhyChooseUsCompCls , autoplay , direction } = props
     const ProfessinalLogos_SlideOne = [
         {   
             id:"1",
             ImgSrc: '/assets/images/Logo1.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id :"2",
             ImgSrc: '/assets/images/Logo2.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id :"3",
             ImgSrc: '/assets/images/Logo3.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"4",
             ImgSrc: '/assets/images/Logo4.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"5",
             ImgSrc: '/assets/images/Logo5.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"6",
             ImgSrc: '/assets/images/Logo6.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"7",
             ImgSrc: '/assets/images/Logo7.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"8",
             ImgSrc: '/assets/images/Logo8.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"9",
             ImgSrc: '/assets/images/Logo9.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"10",
             ImgSrc: '/assets/images/Logo10.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"11",
             ImgSrc: '/assets/images/Logo11.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"12",
             ImgSrc: '/assets/images/Logo12.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"13",
             ImgSrc: '/assets/images/Logo13.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"14",
             ImgSrc: '/assets/images/Logo14.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"340"
         },
         {
             id:"15",
             ImgSrc: '/assets/images/Logo15.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"320",
+            ImgHeight:"310"
         }
        
     ];
@@ -108,92 +108,92 @@ function WhyChooseUs(props) {
         {   
             id:"1",
             ImgSrc: '/assets/images/Logo1.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id :"2",
             ImgSrc: '/assets/images/Logo2.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id :"3",
             ImgSrc: '/assets/images/Logo3.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"4",
             ImgSrc: '/assets/images/Logo4.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"5",
             ImgSrc: '/assets/images/Logo5.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"6",
             ImgSrc: '/assets/images/Logo6.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"7",
             ImgSrc: '/assets/images/Logo7.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"8",
             ImgSrc: '/assets/images/Logo8.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"9",
             ImgSrc: '/assets/images/Logo9.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"10",
             ImgSrc: '/assets/images/Logo10.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"11",
             ImgSrc: '/assets/images/Logo11.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"12",
             ImgSrc: '/assets/images/Logo12.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"13",
             ImgSrc: '/assets/images/Logo13.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"14",
             ImgSrc: '/assets/images/Logo14.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"15",
             ImgSrc: '/assets/images/Logo15.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         }
        
     ];
@@ -202,92 +202,92 @@ function WhyChooseUs(props) {
         {   
             id:"1",
             ImgSrc: '/assets/images/Logo1.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id :"2",
             ImgSrc: '/assets/images/Logo2.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id :"3",
             ImgSrc: '/assets/images/Logo3.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"4",
             ImgSrc: '/assets/images/Logo4.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"5",
             ImgSrc: '/assets/images/Logo5.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"6",
             ImgSrc: '/assets/images/Logo6.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"7",
             ImgSrc: '/assets/images/Logo7.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"8",
             ImgSrc: '/assets/images/Logo8.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"9",
             ImgSrc: '/assets/images/Logo9.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"10",
             ImgSrc: '/assets/images/Logo10.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"11",
             ImgSrc: '/assets/images/Logo11.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"12",
             ImgSrc: '/assets/images/Logo12.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"13",
             ImgSrc: '/assets/images/Logo13.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"14",
             ImgSrc: '/assets/images/Logo14.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         },
         {
             id:"15",
             ImgSrc: '/assets/images/Logo15.webp',
-            ImgWidth:"390",
-            ImgHeight:"390"
+            ImgWidth:"350",
+            ImgHeight:"340"
         }
        
     ];
@@ -317,8 +317,12 @@ function WhyChooseUs(props) {
                 slidesPerView={5}
                 loop={true}
                 navigation // Enable navigation arrows (optional)
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}>
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
+                  direction="horizontal" // Set slide direction to horizontal
+                >
                 {ProfessinalLogos_SlideOne.map((item , index) => (
                     <SwiperSlide key={index}>
                         <div>
@@ -328,24 +332,7 @@ function WhyChooseUs(props) {
                     ))}
             </Swiper>
         </div>
-        <div className={`${styles['Slide-2']} Slider-Row-1`}>
-            <Swiper
-                spaceBetween={0}
-                slidesPerView={5}
-                loop={true}
-                navigation // Enable navigation arrows (optional)
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}>
-                {ProfessinalLogos_SlideTwo.map((item , index) => (
-                    <SwiperSlide key={index}>
-                        <div>
-                            <Image src={item.ImgSrc} width={item.ImgWidth} height={item.ImgHeight} alt='Img' />
-                        </div>
-                    </SwiperSlide>
-                    ))}
-            </Swiper>
-        </div>
-        <div className={`${styles['Slide-3']} Slider-Row-1`}>
+        <div className={`${styles['Slide-1']} Slider-Row-1`}>
             <Swiper
                 spaceBetween={0}
                 slidesPerView={5}
@@ -355,12 +342,30 @@ function WhyChooseUs(props) {
                     delay: 2500,
                     disableOnInteraction: false,
                   }}
-                  pagination={{
-                    clickable: true,
+                  direction="horizontal" // Set slide direction to horizontal
+                 >
+                {ProfessinalLogos_SlideTwo.map((item , index) => (
+                    <SwiperSlide key={index}>
+                        <div>
+                            <Image src={item.ImgSrc} width={item.ImgWidth} height={item.ImgHeight} alt='Img' />
+                        </div>
+                    </SwiperSlide>
+                    ))}
+            </Swiper>
+        </div>
+        <div className={`${styles['Slide-1']} Slider-Row-1`}>
+            <Swiper
+                spaceBetween={0}
+                slidesPerView={5}
+                loop={true}
+                navigation // Enable navigation arrows (optional)
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
                   }}
+                  direction="horizontal" // Set slide direction to horizontal
                 
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}>
+                >
                 {ProfessinalLogos_SlideThree.map((item , index) => (
                     <SwiperSlide key={index}>
                         <div>
