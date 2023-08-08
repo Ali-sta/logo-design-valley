@@ -5,8 +5,9 @@ import styles from './WhyChooseUs.module.scss'
 import { TopHeadings } from '../TopHeadings'
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from "swiper";
+import SwiperCore, { Autoplay } from 'swiper'
 
+SwiperCore.use([Autoplay])
 
 function WhyChooseUs(props) {
     const {WhyChooseUsCompCls , autoplay , direction } = props

@@ -12,6 +12,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
           trigger: section,
           start: 'top center',
           end: 'bottom center',
-          scrub: true,
+          scrub: 0.3,
           toggleActions: 'play none none none', // This ensures the animation plays when the section enters the viewport and is removed when it leaves
           onUpdate: (self) => {
             if (self.isActive) {
@@ -115,7 +116,7 @@ export default function Home() {
       />
       </div>
 
-      <div className="section"  data-bgcolor="linear-gradient(180deg, rgba(59,85,156,1) 0%, rgba(49,85,159,1) 100%)">    
+      <div className="section"  data-bgcolor="linear-gradient(180deg, rgba(49,85,159,1) 0%, rgba(17,24,90,1) 13%, rgba(11,14,77,1) 31%, rgba(5,7,38,1) 61%, rgba(2,3,19,1) 100%)">    
       <CallToAction 
          Heading = "Get Your Project Started Today"
          Para = "At our company, we value communication and understand the importance of open dialogue between our team and our clients. That's why we encourage you to talk to us – whether it's to discuss a new project, ask a question, or provide feedback on our services."
